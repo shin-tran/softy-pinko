@@ -1,0 +1,123 @@
+@media (max-width: 1200px) {
+  /* Header Area Start */
+  .header-area .nav-main {
+    padding-left: 26px;
+    padding-right: 26px;
+  }
+
+  .header-area .nav-menu .nav-item {
+    padding-left: 14px;
+    padding-right: 14px;
+  }
+
+  .header-area .nav-menu .nav-item a {
+    font-size: 13px;
+  }
+  /* Header Area End */
+}
+
+@media (max-width: 992px) {
+  /* Header Area Start */
+  .header-area .nav-main  {
+    min-height: 70px;
+  }
+
+  .header-area .nav-menu {
+    display: none;
+  }
+
+  .header-area .nav-main .nav-menu-icon {
+    display: block;
+  }
+  /* Header Area End */
+
+  
+  /* Home Features Big Start */
+  .futures-big-top,
+  .futures-big-bot {
+    flex-direction: column;
+  }
+  
+  .futures-big-top .inner-title,
+  .futures-big-bot .inner-title {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .futures-big-top .inner-content,
+  .futures-big-bot .inner-content {
+    text-align: center;
+  }
+  
+  .futures-big-bot .inner-content {
+    order: 2;
+  }
+  
+  .futures-big-bot .inner-img {
+    order: 1;
+  }
+  /* Home Features Big End */
+}
+
+@media (max-width: 765px) {
+  /* Welcome Area Start */
+  .welcome-area .header-text h1 {
+    font-size: 28px;
+    line-height: 40px;
+  }
+
+  .welcome-area .header-text p {
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+  /* Welcome Area End */
+
+  /* Home Features Small Start */
+  .home-futures-small {
+    margin-top: 30px;
+  }
+
+  .home-futures-small .futures-small-item {
+    max-width: 100%;
+    min-height: 0;
+    padding: 20px;
+  }
+  /* Home Features Small End */
+
+  /* Home Features Big Start */
+  .home-futures-big .futures-big-top .inner-img img,
+  .home-futures-big .futures-big-bot .inner-img img {
+    width: 200px;
+  }
+  /* Home Features Big End */
+}
+
+@media (max-width: 576px) {
+  /* Welcome Area Start */
+  .welcome-area .header-text {
+    padding: 0 15px;
+  }
+
+  .welcome-area .header-text h1 {
+    font-size: 24px;
+    line-height: 30px;
+  }
+
+  .welcome-area .header-text p {
+    font-size: 14px;
+    margin-top: 16px;
+    margin-bottom: 26px;
+  }
+  /* Welcome Area End */
+
+  /* Home Features Big Start */
+  .home-futures-big {
+    padding: 15px;
+  }
+
+  .home-futures-big .futures-big-top .inner-img img,
+  .home-futures-big .futures-big-bot .inner-img img {
+    width: 160px;
+  }
+  /* Home Features Big End */
+}

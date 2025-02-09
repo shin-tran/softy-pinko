@@ -1,0 +1,212 @@
+/* Header Area Start */
+.header-area {
+  position: fixed;
+  top: 30px;
+  left: 0;
+  right: 0;
+  z-index: 100;
+}
+
+.header-area .nav-main {
+  min-height: 80px;
+  background: #fff;
+  box-shadow:#0000001a 0px 0px 15px 0px;
+  border-radius: 42px;
+  padding: 0 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-area .nav-menu {
+  display: flex;
+  align-items: center;
+}
+
+.header-area .nav-menu .nav-item {
+  padding: 0 20px;
+}
+
+.header-area .nav-menu .nav-item:last-child {
+  padding-right: 0;
+}
+
+.header-area .nav-menu .nav-item a {
+  font-size: 15px;
+  font-weight: 500;
+  color: var(--color-text);
+  letter-spacing: 1px;
+  line-height: 40px;
+  transition: all 0.3s;
+}
+
+.header-area .nav-menu .nav-item a:hover {
+  color: var(--color-one);
+}
+
+.header-area .nav-main .nav-menu-icon {
+  cursor: pointer;
+  display: none;
+}
+
+.header-area .nav-main .nav-menu-icon i {
+  font-size: 28px;
+  color: var(--color-three);
+  margin-right: 10px;
+}
+/* Header Area End */
+
+/* Welcome Area Start */
+.welcome-area {
+  position: relative;
+  height: 100vh;
+  background: center / cover no-repeat url(../images/banner-bg.png);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.welcome-area .header-text {
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.welcome-area .header-text h1,
+.welcome-area .header-text p {
+  max-width: 540px;
+}
+
+.welcome-area .header-text h1 {
+  font-size: 36px;
+  line-height: 56px;
+  letter-spacing: 1.4px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.welcome-area .header-text p {
+  font-size: 15px;
+  line-height: 28px;
+  margin-top: 30px;
+  margin-bottom: 40px;
+  letter-spacing: 0.25px;
+}
+
+.welcome-area .header-text button {
+  font-size: 13px;
+  padding: 10px 20px;
+  color: #fff;
+  background: var(--color-one);
+  border: none;
+  border-radius: 20px;
+  text-transform: uppercase;
+  transition: all 0.2s;
+}
+
+.welcome-area .header-text button:hover {
+  background: var(--color-two);
+}
+/* Welcome Area End */
+
+/* Home Features Small Start */
+.home-futures-small {
+  margin-top: -220px;
+  padding-top: 30px;
+}
+
+.home-futures-small .futures-small-item {
+  max-width: 356px;
+  min-height: 270px;
+  background: #fff;
+  border-radius: 20px;
+  box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.10);
+  margin-bottom: 30px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  cursor: pointer;
+}
+
+.home-futures-small .futures-small-item .icon {
+  width: 90px;
+  height: 90px;
+  padding: 30px;
+  background: var(--color-two);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.2s;
+}
+
+.home-futures-small .futures-small-item:hover .icon {
+  background-color: var(--color-one);
+}
+
+.home-futures-small .futures-small-item .icon i {
+  font-size: 30px;
+  color: #fff;
+}
+
+.home-futures-small .futures-small-item .features-title {
+  font-size: 18px;
+  font-weight: 500;
+  color: var(--color-text);
+  letter-spacing: 0.7px;
+  margin-top: 28px;
+  margin-bottom: 15px;
+}
+
+.home-futures-small .futures-small-item .features-desc {
+  font-size: 13px;
+  color: var(--color-three);
+  letter-spacing: 0.5px;
+}
+/* Home Features Small End */
+
+/* Home Features Big Start */
+.home-futures-big {
+  padding: 80px;
+}
+.futures-big-top,
+.futures-big-bot {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.futures-big-top .inner-title,
+.futures-big-bot .inner-title {
+  font-size: 24px;
+  color: var(--color-text);
+  font-weight: 500;
+  letter-spacing: 0.25px;
+  line-height: 42px;
+  margin-bottom: 30px;
+}
+
+.futures-big-top .inner-desc,
+.futures-big-bot .inner-desc {
+  font-size: 16px;
+  color: var(--color-three);
+  letter-spacing: 1px;
+}
+
+.line {
+  color: var(--color-three);
+  margin: 80px 0;
+}
+/* Home Features Big End */
