@@ -15,9 +15,12 @@
   color: #fff;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: var(--font);
-  scroll-behavior: smooth;
 }
 
 a {
