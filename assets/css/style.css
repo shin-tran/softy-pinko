@@ -210,3 +210,136 @@
   margin: 80px 0;
 }
 /* Home Features Big End */
+
+
+/* Work Process Start */
+.work-process {
+  padding: 100px 0;
+  background: center / cover no-repeat url(../images/work-process-bg.png);
+}
+
+.work-process .header-box {
+  letter-spacing: 0.25px;
+  color: #fff;
+}
+
+.work-process .header-box .header-box-desc {
+  color: #fff;
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+
+.work-process .process-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.work-process .process-list .process-item {
+  position: relative;
+  max-width: 160px;
+  background: #fff;
+  border-radius: 20px;
+  box-shadow:#00000014 0px 2px 48px 0px;
+  padding: 20px;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.work-process .process-list .process-item:hover {
+  margin-top: -10px;
+}
+
+.work-process .process-list .process-item::before {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  background: #fff;
+  width: 100%;
+  height: 100%;
+  opacity: 0.15;
+  left: 0;
+  bottom: -10px;
+  right: -20px;
+  margin: 0 auto;
+  border-radius: 20px;
+}
+
+.work-process .process-list .process-item .process-title {
+  font-size: 17px;
+  color: var(--color-text);
+  font-weight: 400;
+  margin: 20px 0 5px;
+}
+
+.work-process .process-list .process-item .process-decs {
+  font-size: 14px;
+  letter-spacing: 0.75px;
+  color: var(--color-three);
+}
+/* Work Process End */
+
+/* Testimonials Start */
+.testimonials {
+  padding: 100px 0;
+}
+
+.testimonials .team-content {
+  padding: 25px;
+  text-align: left;
+  border-radius: 20px;
+  box-shadow:#0000001a 0px 2px 48px 0px;
+}
+
+.testimonials .team-content .inner-img {
+  text-align: center;
+}
+
+.testimonials .team-content p {
+  font-size: 15px;
+  letter-spacing: 0.6px;
+  color: var(--color-three);
+  margin: 25px 0;
+}
+
+.testimonials .team-content .team-info {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  cursor: pointer;
+}
+
+.testimonials .team-content .team-info .user-img {
+  width: 60px;
+  height: 60px;
+}
+
+.testimonials .team-content .team-info .user-img img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.testimonials .team-content .team-info .inner-content {
+  letter-spacing: .25px;
+  margin-left: 10px;
+  transition: all 0.3s ease;
+}
+
+.testimonials .team-content .team-info:hover .inner-content {
+  margin-left: 20px;
+}
+
+.testimonials .team-content .team-info .inner-content .user-name {
+  font-size: 17px;
+  font-weight: 400;
+  color: var(--color-text);
+  margin: 0;
+}
+
+.testimonials .team-content .team-info .inner-content span {
+  font-size: 15px;
+  color: var(--color-one);
+}
+/* Testimonials End */

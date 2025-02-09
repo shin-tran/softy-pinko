@@ -37,3 +37,27 @@ ul, li {
   position: relative;
 }
 
+.header-box {
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
+  align-items: center;
+  text-align: center;
+}
+
+.header-box-title {
+  font-size: 28px;
+  letter-spacing: 1.75px;
+  line-height: 33.6px;
+  margin: 0;
+}
+
+.header-box-desc {
+  max-width: 540px;
+  font-size: 15px;
+  line-height: 28px;
+  letter-spacing: 1px;
+  color: var(--color-four);
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
