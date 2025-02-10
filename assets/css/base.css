@@ -5,6 +5,8 @@
   --color-two: #8261ee;
   --color-three: #777;
   --color-four: #7a7a7a;
+  --color-five: #f2f2fe;
+  --color-six: #6f8ba4;
   --color-text: #1e1e1e;
 
   --font: "Raleway", serif;
@@ -35,6 +37,7 @@ ul, li {
 
 .section {
   position: relative;
+  padding: 100px 0;
 }
 
 .header-box {
@@ -60,4 +63,24 @@ ul, li {
   color: var(--color-four);
   margin-top: 20px;
   margin-bottom: 30px;
+}
+
+.main-btn {
+  font-size: 13px;
+  padding: 10px 20px;
+  color: #fff;
+  background: var(--color-two);
+  border: none;
+  border-radius: 20px;
+  text-transform: uppercase;
+  transition: all 0.2s;
+}
+
+.main-btn:hover {
+  color: #fff;
+  background: var(--color-one);
+}
+
+.pricing-active {
+  text-decoration: none !important;
 }

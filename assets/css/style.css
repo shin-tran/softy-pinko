@@ -102,18 +102,11 @@
   letter-spacing: 0.25px;
 }
 
-.welcome-area .header-text button {
-  font-size: 13px;
-  padding: 10px 20px;
-  color: #fff;
+.welcome-area .header-text .dis-more-btn {
   background: var(--color-one);
-  border: none;
-  border-radius: 20px;
-  text-transform: uppercase;
-  transition: all 0.2s;
 }
 
-.welcome-area .header-text button:hover {
+.welcome-area .header-text .dis-more-btn:hover {
   background: var(--color-two);
 }
 /* Welcome Area End */
@@ -125,7 +118,6 @@
 }
 
 .home-futures-small .futures-small-item {
-  max-width: 356px;
   min-height: 270px;
   background: #fff;
   border-radius: 20px;
@@ -214,7 +206,6 @@
 
 /* Work Process Start */
 .work-process {
-  padding: 100px 0;
   background: center / cover no-repeat url(../images/work-process-bg.png);
 }
 
@@ -281,9 +272,6 @@
 /* Work Process End */
 
 /* Testimonials Start */
-.testimonials {
-  padding: 100px 0;
-}
 
 .testimonials .team-content {
   padding: 25px;
@@ -343,3 +331,113 @@
   color: var(--color-one);
 }
 /* Testimonials End */
+
+/* Pricing Plans Start */
+.pricing-plans {
+  background: var(--color-five);
+}
+
+.pricing-plans .pricing-item {
+  border-radius: 20px;
+  background: #fff;
+  box-shadow:#0000001a 0px 2px 48px 0px;
+  margin: 20px 0 30px;
+  padding: 30px 0 40px;
+  text-align: center;
+}
+
+.pricing-plans .pricing-item .pricing-header {
+  padding-bottom: 10px;
+}
+
+.pricing-plans .pricing-item .pricing-header h5 {
+  font-size: 17px;
+  color: var(--color-text);
+  line-height: 40px;
+  margin: 0 85px;
+}
+
+.pricing-plans .pricing-item .pricing-body {
+  margin-bottom: 40px;
+}
+
+.pricing-plans .pricing-item .pricing-body .pricing-wrapper {
+  color: #fff;
+  background-color: var(--color-two);
+  border-radius: 20px;
+  margin: 5px 35px 40px;
+  padding: 20px 0 13px;
+}
+
+.pricing-plans .inner-item:nth-child(even) .pricing-item .pricing-body .pricing-wrapper {
+  background-color: var(--color-one);
+}
+
+.pricing-plans .pricing-item .pricing-body .pricing-wrapper .currently {
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 48px;
+}
+
+.pricing-plans .pricing-item .pricing-body .pricing-wrapper .price {
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 42px;
+}
+
+.pricing-plans .pricing-item .pricing-body .pricing-wrapper .period {
+  font-size: 14px;
+  line-height: 21px;
+  display: block;
+}
+
+.pricing-plans .pricing-item .pricing-body .list li {
+  font-size: 13px;
+  color: var(--color-four);
+  margin-bottom: 12px;
+  text-decoration: line-through;
+}
+/* Pricing Plans End */
+
+/* Talk To Us Start */
+.talk-to-us {
+  background: var(--color-five);
+}
+
+.talk-to-us .contact-text h5 {
+  font-size: 18px;
+  line-height: 26px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.talk-to-us .contact-text p {
+  font-size: 14px;
+  letter-spacing: 1px;
+  color: var(--color-six);
+  margin-bottom: 28px;
+}
+
+.talk-to-us .contact-form input,
+.talk-to-us .contact-form textarea {
+  width: 100%;
+  height: 50px;
+  font-size: 14px;
+  color: var(--color-three);
+  border: 1px solid #fff;
+  border-radius: 25px;
+  margin-bottom: 30px;
+  padding: 6px 20px;
+  outline: none;
+}
+
+.talk-to-us .contact-form textarea {
+  height: 150px;
+  resize: none;
+  padding: 20px;
+}
+
+.talk-to-us .contact-form .send-mess-btn {
+  padding: 12px 20px;
+}
+/* Talk To Us End */
