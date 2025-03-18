@@ -1,0 +1,22 @@
+{
+  "name": "softy-pinko",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch scss:css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ngocshintrannn/softy-pinko.git"
+  },
+  "author": "ngocshintran",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ngocshintrannn/softy-pinko/issues"
+  },
+  "homepage": "https://github.com/ngocshintrannn/softy-pinko#readme",
+  "description": "",
+  "dependencies": {
+    "sass": "^1.86.0"
+  }
+}
