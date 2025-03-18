@@ -1,16 +1,16 @@
 @media (max-width: 1200px) {
   /* Header Area Start */
-  .header-area .nav-main {
+  .header .nav-main {
     padding-left: 26px;
     padding-right: 26px;
   }
 
-  .header-area .nav-menu .nav-item {
+  .header .nav-main__menu .nav-main__menu-item {
     padding-left: 14px;
     padding-right: 14px;
   }
 
-  .header-area .nav-menu .nav-item a {
+  .header .nav-main__menu .nav-main__menu-item a {
     font-size: 13px;
   }
   /* Header Area End */
@@ -25,26 +25,26 @@
 
 @media (max-width: 992px) {
   /* Header Area Start */
-  .header-area .nav-main  {
+  .header .nav-main  {
     min-height: 70px;
   }
 
-  .header-area .nav-menu {
+  .header .nav-main__menu {
     display: none;
   }
 
-  .header-area .nav-main .nav-menu-icon {
+  .header .nav-main .nav-main__menu-icon {
     display: block;
   }
   /* Header Area End */
 
-  
+
   /* Home Features Big Start */
   .futures-big-top,
   .futures-big-bot {
     flex-direction: column;
   }
-  
+
   .futures-big-top .inner-title,
   .futures-big-bot .inner-title {
     margin-top: 20px;
@@ -55,11 +55,11 @@
   .futures-big-bot .inner-content {
     text-align: center;
   }
-  
+
   .futures-big-bot .inner-content {
     order: 2;
   }
-  
+
   .futures-big-bot .inner-img {
     order: 1;
   }
@@ -68,12 +68,12 @@
 
 @media (max-width: 765px) {
   /* Welcome Area Start */
-  .welcome-area .header-text h1 {
+  .welcome .welcome__text h1 {
     font-size: 28px;
     line-height: 40px;
   }
 
-  .welcome-area .header-text p {
+  .welcome .welcome__text p {
     margin-top: 20px;
     margin-bottom: 30px;
   }
@@ -101,16 +101,16 @@
 
 @media (max-width: 576px) {
   /* Welcome Area Start */
-  .welcome-area .header-text {
+  .welcome .welcome__text {
     padding: 0 15px;
   }
 
-  .welcome-area .header-text h1 {
+  .welcome .welcome__text h1 {
     font-size: 24px;
     line-height: 30px;
   }
 
-  .welcome-area .header-text p {
+  .welcome .welcome__text p {
     font-size: 14px;
     margin-top: 16px;
     margin-bottom: 26px;
